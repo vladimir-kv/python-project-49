@@ -1,11 +1,11 @@
-from brain_games.logic_games.prime import prime
 from brain_games.logic_games.game import game
+from brain_games.logic_games.prime import prime
 
-task = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+TASK = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def main():
-    game(prime, task)
+    game(prime, TASK)
 
 
 if __name__ == '__main__':
