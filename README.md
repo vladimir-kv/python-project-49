@@ -17,9 +17,30 @@ Each game asks 3 questions. To win, you need to answer three questions correctly
 
 ## Setup:
 
+Сlone the repository:
+
 ```bash
-make install
+git clone https://github.com/vladimir-kv/python-project-49
 ```
+
+Install dependencies:
+
+```bash
+uv sync
+```
+
+To remove:
+
+```bash
+rm -rf python-project-49
+```
+
+## The stack of technologies used
+
+- Python 3.12
+- Prompt 0.4.1
+- Ruff 0.9.5
+
 ## Description of games and launch commands:
 
 ### Game: "Parity check"
